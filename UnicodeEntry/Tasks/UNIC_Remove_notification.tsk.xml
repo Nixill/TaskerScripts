@@ -1,0 +1,93 @@
+<TaskerData sr="" dvi="1" tv="5.6">
+	<Task sr="task5">
+		<cdate>1545227094391</cdate>
+		<edate>1545227632120</edate>
+		<id>5</id>
+		<nme>UNIC Remove notification</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>512</code>
+			<Int sr="arg0" val="1"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>2046367074</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<App>&lt;null&gt;</App>
+					<App-type>java.lang.String</App-type>
+					<CancelAll>false</CancelAll>
+					<CancelAll-type>java.lang.Boolean</CancelAll-type>
+					<CancelPersistent>false</CancelPersistent>
+					<CancelPersistent-type>java.lang.Boolean</CancelPersistent-type>
+					<CaseinsensitiveApp>false</CaseinsensitiveApp>
+					<CaseinsensitiveApp-type>java.lang.Boolean</CaseinsensitiveApp-type>
+					<CaseinsensitivePackage>false</CaseinsensitivePackage>
+					<CaseinsensitivePackage-type>java.lang.Boolean</CaseinsensitivePackage-type>
+					<CaseinsensitiveText>false</CaseinsensitiveText>
+					<CaseinsensitiveText-type>java.lang.Boolean</CaseinsensitiveText-type>
+					<CaseinsensitiveTitle>false</CaseinsensitiveTitle>
+					<CaseinsensitiveTitle-type>java.lang.Boolean</CaseinsensitiveTitle-type>
+					<ExactApp>false</ExactApp>
+					<ExactApp-type>java.lang.Boolean</ExactApp-type>
+					<ExactPackage>false</ExactPackage>
+					<ExactPackage-type>java.lang.Boolean</ExactPackage-type>
+					<ExactText>false</ExactText>
+					<ExactText-type>java.lang.Boolean</ExactText-type>
+					<ExactTitle>false</ExactTitle>
+					<ExactTitle-type>java.lang.Boolean</ExactTitle-type>
+					<InterceptApps>&lt;StringArray sr=""/&gt;</InterceptApps>
+					<InterceptApps-type>[Ljava.lang.String;</InterceptApps-type>
+					<InvertApp>false</InvertApp>
+					<InvertApp-type>java.lang.Boolean</InvertApp-type>
+					<InvertPackage>false</InvertPackage>
+					<InvertPackage-type>java.lang.Boolean</InvertPackage-type>
+					<InvertText>false</InvertText>
+					<InvertText-type>java.lang.Boolean</InvertText-type>
+					<InvertTitle>false</InvertTitle>
+					<InvertTitle-type>java.lang.Boolean</InvertTitle-type>
+					<OtherId>&lt;null&gt;</OtherId>
+					<OtherId-type>java.lang.String</OtherId-type>
+					<OtherPackage>&lt;null&gt;</OtherPackage>
+					<OtherPackage-type>java.lang.String</OtherPackage-type>
+					<OtherTag>&lt;null&gt;</OtherTag>
+					<OtherTag-type>java.lang.String</OtherTag-type>
+					<PackageName>&lt;null&gt;</PackageName>
+					<PackageName-type>java.lang.String</PackageName-type>
+					<RegexApp>false</RegexApp>
+					<RegexApp-type>java.lang.Boolean</RegexApp-type>
+					<RegexPackage>false</RegexPackage>
+					<RegexPackage-type>java.lang.Boolean</RegexPackage-type>
+					<RegexText>false</RegexText>
+					<RegexText-type>java.lang.Boolean</RegexText-type>
+					<RegexTitle>false</RegexTitle>
+					<RegexTitle-type>java.lang.Boolean</RegexTitle-type>
+					<Text>&lt;null&gt;</Text>
+					<Text-type>java.lang.String</Text-type>
+					<Title>&lt;null&gt;</Title>
+					<Title-type>java.lang.String</Title-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Id: unicode_query</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%err
+Error Code
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%errmsg
+Error Message
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>notificaitionid plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<notificaitionid>unicode_query</notificaitionid>
+					<notificaitionid-type>java.lang.String</notificaitionid-type>
+					<plugininstanceid>13905518-fa49-4807-a4a6-fec972ad3151</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autonotification.intent.IntentCancelNotification</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autonotification</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autonotification.activity.ActivityConfigCancelNotification</Str>
+			<Int sr="arg3" val="20"/>
+		</Action>
+	</Task>
+</TaskerData>

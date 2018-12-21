@@ -1,0 +1,256 @@
+<TaskerData sr="" dvi="1" tv="5.6">
+	<Profile sr="prof6" ve="2">
+		<cdate>1545258736083</cdate>
+		<clp>true</clp>
+		<edate>1545258736083</edate>
+		<id>6</id>
+		<mid0>2</mid0>
+		<nme>UNIC Startup</nme>
+		<Event sr="con0" ve="2">
+			<code>307</code>
+			<pri>0</pri>
+		</Event>
+	</Profile>
+	<Task sr="task2">
+		<cdate>1545197812976</cdate>
+		<edate>1545313818030</edate>
+		<id>2</id>
+		<nme>UNIC Create notification</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>166160670</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<ActionIconString1>&lt;null&gt;</ActionIconString1>
+					<ActionIconString1-type>java.lang.String</ActionIconString1-type>
+					<ActionIconString2>&lt;null&gt;</ActionIconString2>
+					<ActionIconString2-type>java.lang.String</ActionIconString2-type>
+					<ActionIconString3>&lt;null&gt;</ActionIconString3>
+					<ActionIconString3-type>java.lang.String</ActionIconString3-type>
+					<ActionIconString4>&lt;null&gt;</ActionIconString4>
+					<ActionIconString4-type>java.lang.String</ActionIconString4-type>
+					<ActionIconString5>&lt;null&gt;</ActionIconString5>
+					<ActionIconString5-type>java.lang.String</ActionIconString5-type>
+					<AppendTexts>false</AppendTexts>
+					<AppendTexts-type>java.lang.Boolean</AppendTexts-type>
+					<BackgroundColor>&lt;null&gt;</BackgroundColor>
+					<BackgroundColor-type>java.lang.String</BackgroundColor-type>
+					<BadgeType>&lt;null&gt;</BadgeType>
+					<BadgeType-type>java.lang.String</BadgeType-type>
+					<Button1UnlockScreen>false</Button1UnlockScreen>
+					<Button1UnlockScreen-type>java.lang.Boolean</Button1UnlockScreen-type>
+					<Button2UnlockScreen>false</Button2UnlockScreen>
+					<Button2UnlockScreen-type>java.lang.Boolean</Button2UnlockScreen-type>
+					<Button3UnlockScreen>false</Button3UnlockScreen>
+					<Button3UnlockScreen-type>java.lang.Boolean</Button3UnlockScreen-type>
+					<Button4UnlockScreen>false</Button4UnlockScreen>
+					<Button4UnlockScreen-type>java.lang.Boolean</Button4UnlockScreen-type>
+					<Button5UnlockScreen>false</Button5UnlockScreen>
+					<Button5UnlockScreen-type>java.lang.Boolean</Button5UnlockScreen-type>
+					<ChronometerCountDown>false</ChronometerCountDown>
+					<ChronometerCountDown-type>java.lang.Boolean</ChronometerCountDown-type>
+					<Colorize>false</Colorize>
+					<Colorize-type>java.lang.Boolean</Colorize-type>
+					<DismissOnTouchVariable>&lt;null&gt;</DismissOnTouchVariable>
+					<DismissOnTouchVariable-type>java.lang.String</DismissOnTouchVariable-type>
+					<ExtraInfo>&lt;null&gt;</ExtraInfo>
+					<ExtraInfo-type>java.lang.String</ExtraInfo-type>
+					<GroupAlertBehaviour>&lt;null&gt;</GroupAlertBehaviour>
+					<GroupAlertBehaviour-type>java.lang.String</GroupAlertBehaviour-type>
+					<GroupKey>&lt;null&gt;</GroupKey>
+					<GroupKey-type>java.lang.String</GroupKey-type>
+					<IconExpanded>&lt;null&gt;</IconExpanded>
+					<IconExpanded-type>java.lang.String</IconExpanded-type>
+					<IsGroupSummary>false</IsGroupSummary>
+					<IsGroupSummary-type>java.lang.Boolean</IsGroupSummary-type>
+					<IsGroupVariable>&lt;null&gt;</IsGroupVariable>
+					<IsGroupVariable-type>java.lang.String</IsGroupVariable-type>
+					<MediaLayout>false</MediaLayout>
+					<MediaLayout-type>java.lang.Boolean</MediaLayout-type>
+					<MessagingImages>&lt;null&gt;</MessagingImages>
+					<MessagingImages-type>java.lang.String</MessagingImages-type>
+					<MessagingOwnIcon>&lt;null&gt;</MessagingOwnIcon>
+					<MessagingOwnIcon-type>java.lang.String</MessagingOwnIcon-type>
+					<MessagingOwnName>&lt;null&gt;</MessagingOwnName>
+					<MessagingOwnName-type>java.lang.String</MessagingOwnName-type>
+					<MessagingPersonBot>&lt;null&gt;</MessagingPersonBot>
+					<MessagingPersonBot-type>java.lang.String</MessagingPersonBot-type>
+					<MessagingPersonIcons>&lt;null&gt;</MessagingPersonIcons>
+					<MessagingPersonIcons-type>java.lang.String</MessagingPersonIcons-type>
+					<MessagingPersonImportant>&lt;null&gt;</MessagingPersonImportant>
+					<MessagingPersonImportant-type>java.lang.String</MessagingPersonImportant-type>
+					<MessagingPersonNames>&lt;null&gt;</MessagingPersonNames>
+					<MessagingPersonNames-type>java.lang.String</MessagingPersonNames-type>
+					<MessagingPersonUri>&lt;null&gt;</MessagingPersonUri>
+					<MessagingPersonUri-type>java.lang.String</MessagingPersonUri-type>
+					<MessagingSeparator>&lt;null&gt;</MessagingSeparator>
+					<MessagingSeparator-type>java.lang.String</MessagingSeparator-type>
+					<MessagingTexts>&lt;null&gt;</MessagingTexts>
+					<MessagingTexts-type>java.lang.String</MessagingTexts-type>
+					<NotificationChannelBypassDnd>false</NotificationChannelBypassDnd>
+					<NotificationChannelBypassDnd-type>java.lang.Boolean</NotificationChannelBypassDnd-type>
+					<NotificationChannelDescription>&lt;null&gt;</NotificationChannelDescription>
+					<NotificationChannelDescription-type>java.lang.String</NotificationChannelDescription-type>
+					<NotificationChannelId>unicode-picker</NotificationChannelId>
+					<NotificationChannelId-type>java.lang.String</NotificationChannelId-type>
+					<NotificationChannelImportance>1</NotificationChannelImportance>
+					<NotificationChannelImportance-type>java.lang.String</NotificationChannelImportance-type>
+					<NotificationChannelName>Unicode Selector</NotificationChannelName>
+					<NotificationChannelName-type>java.lang.String</NotificationChannelName-type>
+					<NotificationChannelShowBadge>false</NotificationChannelShowBadge>
+					<NotificationChannelShowBadge-type>java.lang.Boolean</NotificationChannelShowBadge-type>
+					<PersistentVariable>&lt;null&gt;</PersistentVariable>
+					<PersistentVariable-type>java.lang.String</PersistentVariable-type>
+					<PhoneOnly>false</PhoneOnly>
+					<PhoneOnly-type>java.lang.Boolean</PhoneOnly-type>
+					<PriorityVariable>&lt;null&gt;</PriorityVariable>
+					<PriorityVariable-type>java.lang.String</PriorityVariable-type>
+					<PublicVersion>&lt;null&gt;</PublicVersion>
+					<PublicVersion-type>java.lang.String</PublicVersion-type>
+					<ReplyAction>unicode</ReplyAction>
+					<ReplyAction-type>java.lang.String</ReplyAction-type>
+					<ReplyChoices>&lt;null&gt;</ReplyChoices>
+					<ReplyChoices-type>java.lang.String</ReplyChoices-type>
+					<ReplyLabel>Input</ReplyLabel>
+					<ReplyLabel-type>java.lang.String</ReplyLabel-type>
+					<ShareButtonsVariable>&lt;null&gt;</ShareButtonsVariable>
+					<ShareButtonsVariable-type>java.lang.String</ShareButtonsVariable-type>
+					<SkipPictureCache>false</SkipPictureCache>
+					<SkipPictureCache-type>java.lang.Boolean</SkipPictureCache-type>
+					<SoundPath>&lt;null&gt;</SoundPath>
+					<SoundPath-type>java.lang.String</SoundPath-type>
+					<StatusBarIconString>&lt;null&gt;</StatusBarIconString>
+					<StatusBarIconString-type>java.lang.String</StatusBarIconString-type>
+					<StatusBarTextSize>16</StatusBarTextSize>
+					<StatusBarTextSize-type>java.lang.String</StatusBarTextSize-type>
+					<TextExpanded>Type a code here to input that character. Type a character here to view its code.</TextExpanded>
+					<TextExpanded-type>java.lang.String</TextExpanded-type>
+					<Time>&lt;null&gt;</Time>
+					<Time-type>java.lang.String</Time-type>
+					<TimeFormat>&lt;null&gt;</TimeFormat>
+					<TimeFormat-type>java.lang.String</TimeFormat-type>
+					<Timeout>&lt;null&gt;</Timeout>
+					<Timeout-type>java.lang.String</Timeout-type>
+					<TitleExpanded>&lt;null&gt;</TitleExpanded>
+					<TitleExpanded-type>java.lang.String</TitleExpanded-type>
+					<UpdateNotification>false</UpdateNotification>
+					<UpdateNotification-type>java.lang.Boolean</UpdateNotification-type>
+					<UseChronometer>false</UseChronometer>
+					<UseChronometer-type>java.lang.Boolean</UseChronometer-type>
+					<UseHTML>false</UseHTML>
+					<UseHTML-type>java.lang.Boolean</UseHTML-type>
+					<Visibility>&lt;null&gt;</Visibility>
+					<Visibility-type>java.lang.String</Visibility-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Title: Unicode entry
+Text: Expand to enter Unicode
+Status Bar Text Size: 16
+Id: unicode_query
+Text Expanded: Type a code here to input that character. Type a character here to view its code.
+Category Id: unicode-picker
+Category Name: Unicode Selector
+Category Importance: Minimum
+Reply Action: unicode
+Reply Label: Input
+Separator: ,
+Icon 1: abc_ic_clear_material</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<config_action_1_icon>abc_ic_clear_material</config_action_1_icon>
+					<config_action_1_icon-type>java.lang.String</config_action_1_icon-type>
+					<config_action_2_icon>&lt;null&gt;</config_action_2_icon>
+					<config_action_2_icon-type>java.lang.String</config_action_2_icon-type>
+					<config_action_3_icon>&lt;null&gt;</config_action_3_icon>
+					<config_action_3_icon-type>java.lang.String</config_action_3_icon-type>
+					<config_action_4_icon>&lt;null&gt;</config_action_4_icon>
+					<config_action_4_icon-type>java.lang.String</config_action_4_icon-type>
+					<config_action_5_icon>&lt;null&gt;</config_action_5_icon>
+					<config_action_5_icon-type>java.lang.String</config_action_5_icon-type>
+					<config_notification_action>&lt;null&gt;</config_notification_action>
+					<config_notification_action-type>java.lang.String</config_notification_action-type>
+					<config_notification_action_button1>&lt;null&gt;</config_notification_action_button1>
+					<config_notification_action_button1-type>java.lang.String</config_notification_action_button1-type>
+					<config_notification_action_button2>&lt;null&gt;</config_notification_action_button2>
+					<config_notification_action_button2-type>java.lang.String</config_notification_action_button2-type>
+					<config_notification_action_button3>&lt;null&gt;</config_notification_action_button3>
+					<config_notification_action_button3-type>java.lang.String</config_notification_action_button3-type>
+					<config_notification_action_button4>&lt;null&gt;</config_notification_action_button4>
+					<config_notification_action_button4-type>java.lang.String</config_notification_action_button4-type>
+					<config_notification_action_button5>&lt;null&gt;</config_notification_action_button5>
+					<config_notification_action_button5-type>java.lang.String</config_notification_action_button5-type>
+					<config_notification_action_label1>&lt;null&gt;</config_notification_action_label1>
+					<config_notification_action_label1-type>java.lang.String</config_notification_action_label1-type>
+					<config_notification_action_label2>&lt;null&gt;</config_notification_action_label2>
+					<config_notification_action_label2-type>java.lang.String</config_notification_action_label2-type>
+					<config_notification_action_label3>&lt;null&gt;</config_notification_action_label3>
+					<config_notification_action_label3-type>java.lang.String</config_notification_action_label3-type>
+					<config_notification_action_on_dismiss>&lt;null&gt;</config_notification_action_on_dismiss>
+					<config_notification_action_on_dismiss-type>java.lang.String</config_notification_action_on_dismiss-type>
+					<config_notification_action_share>false</config_notification_action_share>
+					<config_notification_action_share-type>java.lang.Boolean</config_notification_action_share-type>
+					<config_notification_command>&lt;null&gt;</config_notification_command>
+					<config_notification_command-type>java.lang.String</config_notification_command-type>
+					<config_notification_content_info>&lt;null&gt;</config_notification_content_info>
+					<config_notification_content_info-type>java.lang.String</config_notification_content_info-type>
+					<config_notification_dismiss_on_touch>false</config_notification_dismiss_on_touch>
+					<config_notification_dismiss_on_touch-type>java.lang.Boolean</config_notification_dismiss_on_touch-type>
+					<config_notification_icon>&lt;null&gt;</config_notification_icon>
+					<config_notification_icon-type>java.lang.String</config_notification_icon-type>
+					<config_notification_indeterminate_progress>false</config_notification_indeterminate_progress>
+					<config_notification_indeterminate_progress-type>java.lang.Boolean</config_notification_indeterminate_progress-type>
+					<config_notification_led_color>&lt;null&gt;</config_notification_led_color>
+					<config_notification_led_color-type>java.lang.String</config_notification_led_color-type>
+					<config_notification_led_off>&lt;null&gt;</config_notification_led_off>
+					<config_notification_led_off-type>java.lang.String</config_notification_led_off-type>
+					<config_notification_led_on>&lt;null&gt;</config_notification_led_on>
+					<config_notification_led_on-type>java.lang.String</config_notification_led_on-type>
+					<config_notification_max_progress>&lt;null&gt;</config_notification_max_progress>
+					<config_notification_max_progress-type>java.lang.String</config_notification_max_progress-type>
+					<config_notification_number>&lt;null&gt;</config_notification_number>
+					<config_notification_number-type>java.lang.String</config_notification_number-type>
+					<config_notification_persistent>true</config_notification_persistent>
+					<config_notification_persistent-type>java.lang.Boolean</config_notification_persistent-type>
+					<config_notification_picture>&lt;null&gt;</config_notification_picture>
+					<config_notification_picture-type>java.lang.String</config_notification_picture-type>
+					<config_notification_priority>&lt;null&gt;</config_notification_priority>
+					<config_notification_priority-type>java.lang.String</config_notification_priority-type>
+					<config_notification_progress>&lt;null&gt;</config_notification_progress>
+					<config_notification_progress-type>java.lang.String</config_notification_progress-type>
+					<config_notification_subtext>&lt;null&gt;</config_notification_subtext>
+					<config_notification_subtext-type>java.lang.String</config_notification_subtext-type>
+					<config_notification_text>Expand to enter Unicode</config_notification_text>
+					<config_notification_text-type>java.lang.String</config_notification_text-type>
+					<config_notification_ticker>&lt;null&gt;</config_notification_ticker>
+					<config_notification_ticker-type>java.lang.String</config_notification_ticker-type>
+					<config_notification_title>Unicode entry</config_notification_title>
+					<config_notification_title-type>java.lang.String</config_notification_title-type>
+					<config_notification_url>&lt;null&gt;</config_notification_url>
+					<config_notification_url-type>java.lang.String</config_notification_url-type>
+					<config_notification_vibration>&lt;null&gt;</config_notification_vibration>
+					<config_notification_vibration-type>java.lang.String</config_notification_vibration-type>
+					<config_status_bar_icon>&lt;null&gt;</config_status_bar_icon>
+					<config_status_bar_icon-type>java.lang.String</config_status_bar_icon-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%err
+Error Code
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%errmsg
+Error Message
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>NotificationChannelImportance StatusBarTextSize NotificationChannelId NotificationChannelName config_notification_title config_notification_text notificaitionid config_action_1_icon TextExpanded ReplyAction ReplyLabel plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<notificaitionid>unicode_query</notificaitionid>
+					<notificaitionid-type>java.lang.String</notificaitionid-type>
+					<notificaitionsound>&lt;null&gt;</notificaitionsound>
+					<notificaitionsound-type>java.lang.String</notificaitionsound-type>
+					<plugininstanceid>57f9af27-d733-4b5e-bd74-dba142b6601d</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autonotification.intent.IntentNotification</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autonotification</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autonotification.activity.ActivityConfigNotify</Str>
+			<Int sr="arg3" val="20"/>
+		</Action>
+	</Task>
+</TaskerData>

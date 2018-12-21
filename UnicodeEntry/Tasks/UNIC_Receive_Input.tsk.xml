@@ -1,0 +1,312 @@
+<TaskerData sr="" dvi="1" tv="5.6">
+	<Task sr="task4">
+		<cdate>1545225738990</cdate>
+		<edate>1545314142163</edate>
+		<id>4</id>
+		<nme>UNIC Receive Input</nme>
+		<pri>6</pri>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<label>Remove the notification to reset it.
+(This also closes the notification drawer.)</label>
+			<Str sr="arg0" ve="3">UNIC Remove notification</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%ancomm</lhs>
+					<op>4</op>
+					<rhs>^[0-9A-Fa-f ]+$</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>1732635924</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<ActionId>&lt;null&gt;</ActionId>
+					<ActionId-type>java.lang.String</ActionId-type>
+					<ActionType>-1</ActionType>
+					<ActionType-type>java.lang.String</ActionType-type>
+					<FieldSelectionType>2</FieldSelectionType>
+					<FieldSelectionType-type>java.lang.String</FieldSelectionType-type>
+					<IsFirstAction>false</IsFirstAction>
+					<IsFirstAction-type>java.lang.Boolean</IsFirstAction-type>
+					<IsTaskerAction>false</IsTaskerAction>
+					<IsTaskerAction-type>java.lang.Boolean</IsTaskerAction-type>
+					<NearbyText>&lt;null&gt;</NearbyText>
+					<NearbyText-type>java.lang.String</NearbyText-type>
+					<Password>&lt;null&gt;</Password>
+					<Password-type>java.lang.String</Password-type>
+					<StoredAction>&lt;null&gt;</StoredAction>
+					<StoredAction-type>java.lang.String</StoredAction-type>
+					<TextToWrite>%res</TextToWrite>
+					<TextToWrite-type>java.lang.String</TextToWrite-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Type: Focus
+Text to Write : %res
+Action : Write</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%err
+Error Code
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%errmsg
+Error Message
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>TextToWrite FieldSelectionType ActionType plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<plugininstanceid>793982c2-3500-4503-a9ad-922b8f4b48a7</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autoinput.intent.IntentPerformAction</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autoinput</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autoinput.activity.ActivityConfigPerformAction</Str>
+			<Int sr="arg3" val="20"/>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>664</code>
+			<Str sr="arg0" ve="3">chars</Str>
+			<Str sr="arg1" ve="3">"%ancomm"</Str>
+			<Str sr="arg2" ve="3">split
+{String[]} (String)</Str>
+			<Str sr="arg3" ve="3">"(?!^)"</Str>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Str sr="arg9" ve="3"/>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>664</code>
+			<Str sr="arg0" ve="3">out</Str>
+			<Str sr="arg1" ve="3">StringBuilder</Str>
+			<Str sr="arg2" ve="3">new
+{StringBuilder} ()</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Str sr="arg9" ve="3"/>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>39</code>
+			<Str sr="arg0" ve="3">%char</Str>
+			<Str sr="arg1" ve="3">chars</Str>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>664</code>
+			<Str sr="arg0" ve="3">point</Str>
+			<Str sr="arg1" ve="3">"%char"</Str>
+			<Str sr="arg2" ve="3">codePointAt
+{int} (int)</Str>
+			<Str sr="arg3" ve="3">0</Str>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Str sr="arg9" ve="3"/>
+		</Action>
+		<Action sr="act16" ve="7">
+			<code>664</code>
+			<Str sr="arg0" ve="3">str_out</Str>
+			<Str sr="arg1" ve="3">Integer</Str>
+			<Str sr="arg2" ve="3">toHexString
+{String} (int)</Str>
+			<Str sr="arg3" ve="3">point</Str>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Str sr="arg9" ve="3"/>
+		</Action>
+		<Action sr="act17" ve="7">
+			<code>664</code>
+			<Str sr="arg0" ve="3"/>
+			<Str sr="arg1" ve="3">out</Str>
+			<Str sr="arg2" ve="3">append
+{StringBuilder} (String)</Str>
+			<Str sr="arg3" ve="3">" "</Str>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Str sr="arg9" ve="3"/>
+		</Action>
+		<Action sr="act18" ve="7">
+			<code>664</code>
+			<Str sr="arg0" ve="3"/>
+			<Str sr="arg1" ve="3">out</Str>
+			<Str sr="arg2" ve="3">append
+{StringBuilder} (String)</Str>
+			<Str sr="arg3" ve="3">str_out</Str>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Str sr="arg9" ve="3"/>
+		</Action>
+		<Action sr="act19" ve="7">
+			<code>40</code>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>664</code>
+			<Str sr="arg0" ve="3">codes</Str>
+			<Str sr="arg1" ve="3">"%ancomm"</Str>
+			<Str sr="arg2" ve="3">split
+{String[]} (String)</Str>
+			<Str sr="arg3" ve="3">" "</Str>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Str sr="arg9" ve="3"/>
+		</Action>
+		<Action sr="act20" ve="7">
+			<code>664</code>
+			<Str sr="arg0" ve="3">res</Str>
+			<Str sr="arg1" ve="3">out</Str>
+			<Str sr="arg2" ve="3">toString
+{String} ()</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Str sr="arg9" ve="3"/>
+		</Action>
+		<Action sr="act21" ve="7">
+			<code>664</code>
+			<Str sr="arg0" ve="3">%res</Str>
+			<Str sr="arg1" ve="3">res</Str>
+			<Str sr="arg2" ve="3">substring
+{String} (int)</Str>
+			<Str sr="arg3" ve="3">1</Str>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Str sr="arg9" ve="3"/>
+		</Action>
+		<Action sr="act22" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">%res</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act23" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act24" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">UNIC Create notification</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>664</code>
+			<Str sr="arg0" ve="3">out</Str>
+			<Str sr="arg1" ve="3">StringBuilder</Str>
+			<Str sr="arg2" ve="3">new
+{StringBuilder} ()</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Str sr="arg9" ve="3"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>39</code>
+			<Str sr="arg0" ve="3">%code</Str>
+			<Str sr="arg1" ve="3">codes</Str>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>664</code>
+			<Str sr="arg0" ve="3">code_int</Str>
+			<Str sr="arg1" ve="3">Integer</Str>
+			<Str sr="arg2" ve="3">parseInt
+{int} (String, int)</Str>
+			<Str sr="arg3" ve="3">"%code"</Str>
+			<Str sr="arg4" ve="3">16</Str>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Str sr="arg9" ve="3"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>664</code>
+			<Str sr="arg0" ve="3">chrs</Str>
+			<Str sr="arg1" ve="3">Character</Str>
+			<Str sr="arg2" ve="3">toChars
+{char[]} (int)</Str>
+			<Str sr="arg3" ve="3">code_int</Str>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Str sr="arg9" ve="3"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>664</code>
+			<Str sr="arg0" ve="3"/>
+			<Str sr="arg1" ve="3">out</Str>
+			<Str sr="arg2" ve="3">append
+{StringBuilder} (char[])</Str>
+			<Str sr="arg3" ve="3">chrs</Str>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Str sr="arg9" ve="3"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>40</code>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>664</code>
+			<Str sr="arg0" ve="3">%res</Str>
+			<Str sr="arg1" ve="3">out</Str>
+			<Str sr="arg2" ve="3">toString
+{String} ()</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Str sr="arg9" ve="3"/>
+		</Action>
+	</Task>
+</TaskerData>
